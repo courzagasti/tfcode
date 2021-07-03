@@ -22,7 +22,7 @@ provider "azurerm" {
   }
 }
 data "azurerm_client_config" "current" {}
-# Create our Resource Group - infra-RG
+# Create our Resource Group - infra-RG deploying with Terraform
 resource "azurerm_resource_group" "rg" {
   name     = "app-rg"
   location = "East US 2"
