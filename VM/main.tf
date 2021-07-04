@@ -7,7 +7,7 @@ terraform {
 }
 
   required_providers {
-    azurerm = "2.4.1"
+    azurerm = "v2.66.0"
   }
 }
 provider "azurerm" {
